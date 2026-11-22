@@ -1,0 +1,15 @@
+NODE_ENV=development
+PORT=8000
+
+# Required
+MONGO_URI=mongodb://127.0.0.1/27017/grovia
+JWT_SECRET=jdsdhfjkshdfjks
+JWT_EXPIRES_IN=30d
+
+
+# App URL's
+CLIENT_URL=http://localhost:3000
+ADMIN_URL=http://localhost:3001
+NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_WEB_URL=http://localhost:3000
+NEXT_PUBLIC_ADMIN_URL=http://localhost:3001
